@@ -29,7 +29,7 @@ header .title{
 	background-image: url(./shubh2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100%;
+	height: 300px;
     margin: 0;
     font-family: calibri light,arial;
     font-size: 100%;
@@ -39,15 +39,14 @@ header .title{
 }
 .one-half .image div{
 	position: relative;
-	top: 70%;
+	top: 150px;
 	padding: 0% 28% 0% 28%;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.5);
 }
 .one-half .image:hover{
 	background-image: url(./shubh1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-    height:100%;
     color: white;
 }
 .one-half .content{
