@@ -1,3 +1,6 @@
+html{
+	margin: 0;
+}
 body{
  margin:0;
  padding: 0;
@@ -18,12 +21,9 @@ header .title{
 	width: 100%;
 }
 .one-half{
-	float: left;
-	width:50%;
+	width: 100%;
 	background-color:#3b3b3b;
 	color: white;
-	height: 80%;
-	overflow-y: auto;
 }
 .one-half .image{
 	background-image: url(./shubh2.jpg);
@@ -63,11 +63,8 @@ header .title{
 	color:#16a085;
 }
 .two-half{
-	float:left;
-	width:50%;
+	width: 100%;
 	background-color:#16a085;
-    height: 80%;
-    overflow-y:auto; 
 }
 .two-half .content{
 	font-family: calibri light,arial;
@@ -83,7 +80,6 @@ header .title{
 }
 
 footer{
-	clear: both;
 	width:100%;
 	z-index: 2;
 	background-color: white;
