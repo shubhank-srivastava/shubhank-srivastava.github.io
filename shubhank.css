@@ -1,31 +1,42 @@
 body{
  margin:0;
  padding: 0;
+ overflow-x: hidden;
 }
 a{text-decoration: none;color: inherit;}
 header{
 	z-index: 2;
 	width:100%;
-	top:0;
+	height:58px;
 }
-header .title{
-	font-family: NuetraBold,arial;
+.repo-link:hover{cursor: pointer;text-decoration: underline;}
+.title{
+	display: inline-block;
+    font-family: NuetraBold,arial;
 	font-size: 50px;
 	padding-left: 5%;
 	letter-spacing: 1em;
 	color: #16a085;
 	background-color: white;
-	width: 100%;
 }
+.title.ng-enter,
+.title.ng-leave{
+  -webkit-transition:0.3s linear all;
+  transition:0.3s linear all;
+}
+.title.ng-enter {transform:translateX(-500%);}
+.title.ng-enter.ng-enter-active {transform:initial;}
+.title.ng-leave {transform:translateX(500px); }
+.title.ng-leave.ng-leave-active {transform:translateX(150%);}
+
 .one-half{
 	float: left;
 	width:50%;
 	background-color:#3b3b3b;
 	color: white;
 	height: 80%;
-	overflow-y: auto;
 }
-.one-half .image{
+.image{
 	background-image: url(./shubh2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -37,13 +48,23 @@ header .title{
     line-height: 1.2em;
     color: #16a085;
 }
-.one-half .image div{
+.image.ng-enter,
+.image.ng-leave{
+  -webkit-transition:0.5s linear all;
+  transition:0.5s linear all;
+}
+.image.ng-enter{ opacity:0; }
+.image.ng-enter.ng-enter-active{ opacity:1; }
+.image.ng-leave { opacity:1; }
+.image.ng-leave.ng-leave-active { opacity:0; }
+
+.image div{
 	position: relative;
 	top: 70%;
 	padding: 0% 28% 0% 28%;
 	background-color: rgba(0,0,0,0.8);
 }
-.one-half .image:hover{
+.image:hover{
 	background-image: url(./shubh1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -76,6 +97,15 @@ header .title{
 	line-height: 1.2em;
 	font-size: 14px;
 }
+.content.ng-enter,
+.content.ng-leave{
+  -webkit-transition:0.5s linear all;
+  transition:0.5s linear all;
+}
+.content.ng-enter{ opacity:0; }
+.content.ng-enter.ng-enter-active{ opacity:1; }
+.content.ng-leave { opacity:1; }
+.content.ng-leave.ng-leave-active { opacity:0; }
 .two-half .content span{
 	font-size:20px;
 	letter-spacing: 0.5em;
@@ -109,3 +139,22 @@ footer .links a:hover{
 	cursor: pointer;
 }
 
+.repeat-animation.ng-enter,
+.repeat-animation.ng-leave,
+.repeat-animation.ng-move {
+  -webkit-transition:0.5s linear all;
+  transition:0.5s linear all;
+  transition-delay:1s;
+}
+.repeat-animation.ng-enter-stagger,
+.repeat-animation.ng-leave-stagger,
+.repeat-animation.ng-move-stagger {
+  -webkit-transition-delay:0.2s;
+  transition-delay:0.2s;
+}
+.repeat-animation.ng-enter,
+.repeat-animation.ng-move { opacity:0;}
+.repeat-animation.ng-enter.ng-enter-active,
+.repeat-animation.ng-move.ng-move-active { opacity:1;}
+.repeat-animation.ng-leave { opacity:1; }
+.repeat-animation.ng-leave.ng-leave-active { opacity:0;display: none; }
