@@ -3,25 +3,25 @@
 	{
 	   "name": "Real-Time-Image-Share",
 	   "link": "https://github.com/shubhank-srivastava/Real-Time-Image-Share",
-	   "desc": "Real time image sharing app like Snapchat.",
+	   "desc": "With image sharing on the rise with the likes of Snapchat and Instagram, the idea behind the app was to have something like a global Snapchat. People can upload a picture for a specific time for all the users connected to the network. This project was made to get a basic understanding of socket.IO.",
 	   "tech": "Node.js, Socket.io, AngularJS"
 	},
 	{
 	   "name": "AAW-Website",
 	   "link": "https://github.com/shubhank-srivastava/AAW-Website",
-	   "desc": "Official website data of Artist At Work Productions.",
+	   "desc": "Official website repository of Artist At Work Productions. Artist At Work Productions is an organisation that helps you discover your love for art, and sculpt it in unbelievable forms. I had the privilege of being the backend developer and also made a few CSS components for the UI.",
 	   "tech": "PHP, JavaScript, CSS, MySQL"
 	},
 	{
 	   "name": "FeedbackExtension",
 	   "link": "https://github.com/shubhank-srivastava/FeedbackExtension",
-	   "desc": "A Magento Extension.",
+	   "desc": "This is an extension that you can simply include in your Magento E-commerce platform. The extension asks for a basic feedback from the customer and his source of arrival after he has made the purchase. The options for various sources can be setup from the admin panel where the feedbacks can be also be viewed.",
 	   "tech": "PHP"
 	},
 	{
 	   "name": "BARS-mp3-player",
 	   "link": "https://github.com/shubhank-srivastava/AAW-Website",
-	   "desc": "A mp3 player",
+	   "desc": "My first ever C project. It was developed as a first semester project when I was a newbie to project development. So it consists of a lot of redundant and unoptimized code. Though you can find a lot of modules giving basic functionalities of an MP3 Player such as play, pause, seek, volume controls and creating and running playlists. It makes use of the MCI API for Windows. (runs only on Windows OS)",
 	   "tech": "C"
 	}
 	],
@@ -29,19 +29,19 @@
     {
     	"name": "codeyard",
     	"link": "https://github.com/shubhank-srivastava/codeyard",
-    	"desc": "Codeyard is git free web based version control system developed on top of MEAN stack and python. Codeyard will also be having realtime document collaboration to help developers work concurrently.",
-    	"tech": "Node.js, AngularJS, Socket.io, CSS, Redis, MongoDB, Python"
+    	"desc": "Codeyard is a git free web based version control system developed on top of MEAN stack and python. Developers can setup public or private repositories for their projects. They can easily upload their code and add their team collaborators. The team can collaborate on the repo using the Codeyard-Editor. All file changes in each commit are stored that can be viewed on the frontend. The project is still under development and aims to add many other features. Feel free to fork and contribute.",
+    	"tech": "Node.js, AngularJS, Socket.io, Bootstrap, Redis, MongoDB, Python"
     },
     {
     	"name": "Codeyard-Editor",
     	"link": "https://github.com/shubhank-srivastava/Codeyard-Editor",
-    	"desc": "Real Time Collaboration App for Codeyard",
+    	"desc": "Real Time Collaboration App for Codeyard. All registered users for a particular repository can together collaborate on their repo working on multiple files concurrently and then finally commiting the files to the main repo. This app makes use of Firepad which is an open source collaborative text editor.",
     	"tech": "Node.js, AngularJS, Socket.io"
     },
     {
     	"name": "shubhank-srivastava.github.io",
     	"link": "https://github.com/shubhank-srivastava/shubhank-srivastava.github.io",
-    	"desc": "Also you can take a look at the code of this small website.",
+    	"desc": "Have a look at the code for this single page website. This site has pure CSS components and animations.",
     	"tech": "CSS, AngularJS"
     }
     ]

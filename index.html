@@ -30,9 +30,8 @@
 		<div ng-show="projects" class="content">
 			<br>
 			<div ng-repeat="repo in page_one" class="repeat-animation">
-				<span>{{repo.name}}</span>
-				<br><br><a href="{{repo.link}}" class="repo-link">{{repo.link}}</a>
-				<br>Tech Specification: {{repo.tech}}
+				<span><a href="{{repo.link}}">{{repo.name}}</a></span>
+				<br><br>Technology Stack: {{repo.tech}}
 				<br>{{repo.desc}}
 				<br><br>
 			</div>
@@ -56,9 +55,9 @@
 			<br><br><br>
 			<span>Contact Me</span>
 			<br><br>
-            <i class="fa fa-envelope fa-3x"></i>&nbsp;&nbsp;shubhanksrivastava94@gmail.com
+            <i style="vertical-align:middle;" class="fa fa-envelope fa-3x"></i>&nbsp;&nbsp;shubhanksrivastava94@gmail.com
             &nbsp;&nbsp;&nbsp;
-            <i class="fa fa-mobile-phone fa-3x"></i>&nbsp;&nbsp;+91-7838088743
+            <i style="vertical-align:middle;" class="fa fa-mobile-phone fa-3x"></i>&nbsp;&nbsp;+91-7838088743
             <br><br><br>
             <span>Connect With Me</span>
             <br><br>
@@ -68,9 +67,9 @@
             <a href="https://plus.google.com/+ShubhankSrivastava94">
                 <i class="fa fa-google-plus-square fa-3x"></i>&nbsp;&nbsp;&nbsp;
             </a>
-            <a href="">
+            <!--a href="">
                 <i class="fa fa-linkedin-square fa-3x"></i>&nbsp;&nbsp;&nbsp;
-            </a>
+            </a-->
             <a href="https://github.com/shubhank-srivastava">
                 <i class="fa fa-github-square fa-3x"></i>&nbsp;&nbsp;&nbsp;
             </a>
@@ -78,9 +77,8 @@
 		<div ng-show="projects" class="content">
 			<br>
 			<div ng-repeat="repo in page_two" class="repeat-animation">
-				<span>{{repo.name}}</span>
-				<br><br><a href="{{repo.link}}" class="repo-link">{{repo.link}}</a>
-				<br>Tech Specification: {{repo.tech}}
+				<span><a href="{{repo.link}}">{{repo.name}}</a></span>
+				<br><br>Technology Stack: {{repo.tech}}
 				<br>{{repo.desc}}
 				<br><br>
 			</div>
