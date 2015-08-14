@@ -8,7 +8,7 @@
 	},
 	{
 	   "name": "AAW-Website",
-	   "link": "https://github.com/shubhank-srivastava/AAW-Website",
+	   "link": "http://aawproductions.com",
 	   "desc": "Official website repository of Artist At Work Productions. Artist At Work Productions is an organisation that helps you discover your love for art, and sculpt it in unbelievable forms. I had the privilege of being the backend developer and also made a few CSS components for the UI.",
 	   "tech": "PHP, JavaScript, CSS, MySQL"
 	},
@@ -20,7 +20,7 @@
 	},
 	{
 	   "name": "BARS-mp3-player",
-	   "link": "https://github.com/shubhank-srivastava/AAW-Website",
+	   "link": "",
 	   "desc": "My first ever C project. It was developed as a first semester project when I was a newbie to project development. So it consists of a lot of redundant and unoptimized code. Though you can find a lot of modules giving basic functionalities of an MP3 Player such as play, pause, seek, volume controls and creating and running playlists. It makes use of the MCI API for Windows. (runs only on Windows OS)",
 	   "tech": "C"
 	}
@@ -33,13 +33,19 @@
     	"tech": "Node.js, AngularJS, Socket.io, Bootstrap, Redis, MongoDB, Python"
     },
     {
-    	"name": "Codeyard-Editor",
-    	"link": "https://github.com/shubhank-srivastava/Codeyard-Editor",
-    	"desc": "Real Time Collaboration App for Codeyard. All registered users for a particular repository can together collaborate on their repo working on multiple files concurrently and then finally commiting the files to the main repo. This app makes use of Firepad which is an open source collaborative text editor.",
-    	"tech": "Node.js, AngularJS, Socket.io"
+    	"name": "Avyam ShopOn",
+    	"link": "https://chrome.google.com/webstore/detail/shop-on/jbclppaahhkaomekbjoampcleafgfdae",
+    	"desc": "A Chrome Extension to which you can add products from various E-commerce stores and set up alerts for them when they come under the desired price range.",
+    	"tech": "Node.js, AngularJS, MongoDB"
     },
     {
-    	"name": "shubhank-srivastava.github.io",
+    	"name": "Dynamic Dashboards", 
+    	"link": "https://github.com/CSC-ORG/Dynamic-Dashboard-2015",
+    	"desc": "The project was a part of CSC COIN developer programme 2015. It is an application that can create dashboards dynamically through various datasets. Employees can share insights and performance through data visuualisations.",
+    	"tech": "Node.js, AngularJS, MongoDB, Python"
+    },
+    {
+    	"name": "Shubhank.com",
     	"link": "https://github.com/shubhank-srivastava/shubhank-srivastava.github.io",
     	"desc": "Have a look at the code for this single page website. This site has pure CSS components and animations.",
     	"tech": "CSS, AngularJS"

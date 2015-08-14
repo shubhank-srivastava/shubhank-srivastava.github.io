@@ -12,7 +12,7 @@
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-animate.js"></script>
 	<script src="shubhank.js"></script>
 </head>
-<body ng-controller="myController" ng-init="viewPortfolio()">
+<body ng-controller="myController" ng-init="viewPortfolio()" class="ng-cloak">
 	<header>
 		<div ng-if="about" class="title">Hello!</div>
 		<div ng-if="projects" class="title">Projects</div>
@@ -30,7 +30,7 @@
 		<div ng-show="projects" class="content">
 			<br>
 			<div ng-repeat="repo in page_one" class="repeat-animation">
-				<span><a href="{{repo.link}}">{{repo.name}}</a></span>
+				<span><a href="{{repo.link}}" target="_block">{{repo.name}}</a></span>
 				<br><br>Technology Stack: {{repo.tech}}
 				<br>{{repo.desc}}
 				<br><br>
